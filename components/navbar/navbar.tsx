@@ -1,9 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
-import { Box, Container, Divider, Stack, Typography } from '@mui/material';
+import { Box, Container, Divider, Stack, Typography, useMediaQuery, useTheme } from '@mui/material';
 import Link from 'next/link';
 import CTA from '../header/cta';
 
 const Navbar = () => {
+
+  const screenIsSmall = useMediaQuery(useTheme().breakpoints.down('sm'));
+
   return (
     <Box sx={{bgcolor: 'background.paper'}}>
       <Container maxWidth="lg" sx={{padding: "24px", display: "flex", justifyContent: "space-between", alignItems: "center"}}>
@@ -15,7 +18,7 @@ const Navbar = () => {
           </div>
         </Link>        
         <Stack direction="row" spacing={4} divider={<Divider orientation='vertical' flexItem />}>
-          <CTA />
+          <CTA hideText={screenIsSmall} />
         </Stack>
       </Container>
       <Divider orientation='horizontal' sx={{width: '100%'}}/>

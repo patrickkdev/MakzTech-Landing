@@ -233,7 +233,7 @@ a {
   font-family: Poppins;
   font-weight: 600;
   color: black;
-  padding: 12px 40px !important;
+  padding: 10px 40px;
   border-radius: 100px;
   border: solid 1px black;
   transition: 0.2s ease-out;
