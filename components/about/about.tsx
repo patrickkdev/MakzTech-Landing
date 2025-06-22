@@ -1,49 +1,57 @@
 import React from 'react'
-import { Container, Divider, Grid, IconButton } from '@mui/material';
-import { ArrowDownward } from '@mui/icons-material';
+import { Container, Grid } from '@mui/material'
+import { Build, FlashOn, SyncAlt } from '@mui/icons-material'
 
 const bulletPoints = [
   {
-    icon: <ArrowDownward />,
-    title: "Criatividade",
-    subtitle: "Desenvolvendo Soluções Únicas e Inovadoras"      
+    icon: <Build />,
+    title: "Soluções Sob Medida",
+    subtitle: "Cada projeto é feito de forma personalizada, sem fórmulas prontas ou pacotes genéricos."
   },
   {
-    icon: <ArrowDownward />,
-    title: "Responsabilidade",
-    subtitle: "Comprometimento e Foco na Excelência"
+    icon: <FlashOn />,
+    title: "Agilidade e Foco",
+    subtitle: "O objetivo é entregar rápido, mas com qualidade. Sem burocracia, sem processos desnecessários."
   },
   {
-    icon: <ArrowDownward />,
-    title: "Resolução de Problemas",
-    subtitle: "Soluções Inteligentes para Desafios Complexos"
+    icon: <SyncAlt />,
+    title: "Integração e Automação",
+    subtitle: "A ideia é sempre eliminar o trabalho manual e fazer as ferramentas do cliente trabalharem juntas de forma inteligente."
   }
 ]
 
 const About = () => {
-
   return (
     <div className="about fill-on-scroll">
-      <Container maxWidth="lg">
-        <div className="title">
-          <h1>
-            Sobre mim
-          </h1>
-        </div>
-        <Divider sx={{ marginBottom: "20px", backgroundColor: "rgba(255, 255, 255, 0.2)" }} />
-        <p><strong>Olá! Sou o Patrick,</strong> programador front-end e back-end baseado em Nova Lima - MG.</p>
-        
-        <h3>Paixão</h3>	
+      <Container className="container" maxWidth="lg">
+        <h1 className="title">Sobre a MakzTech</h1>
+        <p>
+          A MakzTech surgiu da vontade de aplicar tecnologia de um jeito simples, direto e funcional. 
+          Não é sobre criar grandes sistemas que ninguém usa. É sobre resolver problemas reais com soluções práticas, 
+          feitas na medida para o que o cliente realmente precisa.
+        </p>
 
-        <p>Desde jovem, vejo na programação não apenas uma profissão, mas uma verdadeira paixão que me impulsiona a explorar e criar soluções únicas e inovadoras.</p>
+        <p>
+          O foco aqui é entregar valor. Seja um site rápido, uma API bem feita ou uma automação que economize horas de trabalho.
+          Cada projeto é tratado com atenção aos detalhes, com escolhas técnicas que fazem sentido para o contexto de cada cliente.
+        </p>
 
-        <h3>Habilidades</h3>
+        <Grid container spacing={4} style={{ marginTop: '2rem' }}>
+          {bulletPoints.map((item, index) => (
+            <Grid item xs={12} md={4} key={index}>
+              <div style={{ display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }}>
+                {item.icon}
+                <h3 style={{ marginLeft: '0.5rem' }}>{item.title}</h3>
+              </div>
+              <p>{item.subtitle}</p>
+            </Grid>
+          ))}
+        </Grid>
 
-        <p>Como desenvolvedor fullstack, domino o desenvolvimento de software front-end e back-end. Minhas principais ferramentas incluem React e Node.js. Ao longo dos anos, dediquei-me a projetos que exigiram a aplicação dessas tecnologias, proporcionando-me uma visão abrangente e aprimorando minhas habilidades técnicas.</p>
-
-        <h3>Aprendizado Constante</h3>
-
-        <p>Embora ainda não tenha concluído minha formação acadêmica, minha busca por conhecimento é contínua. Minha abordagem autodidata vai além da teoria, refletindo-se em meu envolvimento ativo em projetos práticos. Estou aberto a oportunidades que valorizem não apenas a formação acadêmica, mas também reconheçam a paixão, dedicação e habilidades práticas que desenvolvi ao longo dos anos.</p>
+        <p style={{ marginTop: '2rem' }}>
+          A ideia é simples: usar a tecnologia como um facilitador. Menos complicação, mais resultado.
+          Se o seu negócio precisa de algo objetivo, bem feito e com entrega responsável, a MakzTech pode ajudar.
+        </p>
       </Container>
     </div>
   )

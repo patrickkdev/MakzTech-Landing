@@ -12,7 +12,6 @@ export enum Colors {
 }
 
 export default function App({ Component, pageProps }: AppProps) {
-
   const theme = createTheme({
     palette: {
       primary: {

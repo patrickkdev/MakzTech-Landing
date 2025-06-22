@@ -10,10 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Makz Tech - Desenvolvimento de Software</title>
-        <meta name="description" content="Makz Tech - Desenvolvimento de Software" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>MakzTech - Desenvolvimento de Software</title>
       </Head>
       <Header />
       <About />

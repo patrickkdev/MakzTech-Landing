@@ -11,21 +11,20 @@ const Header = () => {
         <div className="container">
           <div className="hero">
             <h6 className="subtitle">
-              <strong>Makz</strong> Tech
+              <strong>Makz</strong>Tech
             </h6>
             <h1 className="title">
-              Criação de Sistemas e Sites Profissionais
+              Conectamos seu negócio ao futuro
             </h1>
             <p className="description">
-              Criamos sistemas e sites profissionais sob medida para atender às suas necessidades. Combinamos design moderno e tecnologia de ponta para garantir funcionalidade, eficiência e uma experiência de usuário excepcional. Transforme sua presença digital com nossa expertise.
+              Criamos sistemas e sites profissionais sob medida para atender às suas necessidades. Combinamos design moderno e tecnologia de ponta para garantir funcionalidade, eficiência e uma experiência de usuário excepcional. Se o seu negócio precisa de algo objetivo, bem feito e com entrega responsável, a MakzTech pode ajudar.
             </p>
-
             <div className="buttons">
               <CTA />
             </div>
           </div>
           <div className="image-container">
-            <img src="https://sitextec.com.br/wp-content/themes/sitex/assets/images/header.webp"/>
+            <img src="/hero_image.jpg"/>
           </div>
         </div>
       </div>

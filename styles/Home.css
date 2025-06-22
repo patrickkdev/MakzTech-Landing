@@ -1,9 +1,10 @@
-.about-section {  
+.about-section {
+  background-color: red;  
   height: 100vh;
   display: flex;
   flex-direction: column;
   
-  & .about {
+  .about {
     margin-top: 48px;
     padding: 24px;
     height: 100%;
@@ -11,15 +12,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
   }
 
-  & ul {
+  ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 12px;
   }
 
-  & li {
+  li {
     list-style: none;
     padding: 4px;
     border-radius: 8px;      

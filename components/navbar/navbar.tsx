@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link href="/" style={{display: "flex", alignItems: "center", gap: "24px"}}>
           <img src="/makztech-st.png" alt="logo" style={{width: "32px"}} />
           <div>
-            <Typography><strong>Makz&nbsp;</strong>Tech</Typography>
+            <Typography><strong>Makz</strong>Tech</Typography>
             Desenvolvimento de Software
           </div>
         </Link>        
