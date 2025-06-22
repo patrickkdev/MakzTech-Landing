@@ -154,7 +154,7 @@ a {
 }
 
 .header {
-  padding: 48px;
+  padding: 24px;
   padding-bottom: 12px;
   color: var(--dark-font-color);
   display: flex;
@@ -449,7 +449,6 @@ a {
         }
         
         .project-display__content {
-          padding: 24px;
           gap: 24px;
 
           .project-display__content_info p {
