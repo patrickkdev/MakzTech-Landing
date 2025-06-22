@@ -1,5 +1,6 @@
 import React from 'react'
 import Form from './form';
+import CTA from '../header/cta'
 
 const Contact = () => {
   return (
@@ -12,9 +13,10 @@ const Contact = () => {
           Envie uma mensagem e eu retornarei o mais rápido possível.
         </p>
       </div>
-      <div className="contact-form">
+      <CTA />
+      {/* <div className="contact-form">
         <Form />
-      </div>
+      </div> */}
     </div>
   )
 }

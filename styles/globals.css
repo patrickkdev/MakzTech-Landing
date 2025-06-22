@@ -66,6 +66,7 @@ html {
 
 h1 {
   font-size: 3.5rem;
+  line-height: 1.2;
 }
 
 h2 {
@@ -551,15 +552,21 @@ a {
   background-color: var(--light-background);
   color: black;
   padding: 72px 48px;
+  gap: 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  & .call-to-action {
+  .call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     overflow-wrap: break-word;
     cursor: default;
-    padding: 72px;
+    padding: 24px;
+    gap: 1em;
     border-radius: 100px;
     transition: 0.1s ease-out;
 
@@ -571,6 +578,7 @@ a {
 
   & h1 {
     color: var(--accent-color-4);
+    line-height: 1.1;
     font-size: 5rem;
   }
 
