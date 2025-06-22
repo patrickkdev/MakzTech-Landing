@@ -9,7 +9,9 @@ export default function Document() {
 
         <meta property="og:title" content="MakzTech - Conectamos seu negócio ao futuro" />
         <meta property="og:description" content="Criamos sistemas e sites profissionais sob medida para atender às suas necessidades. Combinamos design moderno e tecnologia de ponta para garantir funcionalidade, eficiência e uma experiência de usuário excepcional. Se o seu negócio precisa de algo objetivo, bem feito e com entrega responsável, a MakzTech pode ajudar." />
-        <meta property="og:image" content="/makztech.png" />
+        <meta property="og:image" content="/makztech-og.jpg" />
+        <meta property="og:image:width" content="684" />
+        <meta property="og:image:height" content="684" />
       </Head>
       <body>
         <Main />
