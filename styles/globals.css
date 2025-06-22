@@ -475,6 +475,10 @@ a {
   margin-bottom: calc(var(--inset-padding) * -1);
   cursor: default;
 
+  h1 {
+    line-height: 1.5;
+  }
+
   & .service_cards_content {
     margin-top: 48px;
 
