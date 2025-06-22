@@ -349,7 +349,7 @@ a {
 
   .project-display {
     height: 1px;
-    min-height: 100vh;
+    min-height: 100dvh;
     padding: 48px;
     position: sticky;
     top: 0;
