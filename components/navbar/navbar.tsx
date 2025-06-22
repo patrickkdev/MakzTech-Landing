@@ -11,7 +11,7 @@ const Navbar = () => {
     <Box sx={{bgcolor: 'background.paper'}}>
       <Container maxWidth="lg" sx={{padding: "24px", display: "flex", justifyContent: "space-between", alignItems: "center"}}>
         <Link href="/" style={{display: "flex", alignItems: "center", gap: "24px"}}>
-          <img src="/makztech-st.png" alt="logo" style={{width: "32px"}} />
+          <img src="/makztech-st.png" alt="logo" style={{width: "50px"}} />
           <div>
             <Typography><strong>Makz</strong>Tech</Typography>
             Desenvolvimento de Software

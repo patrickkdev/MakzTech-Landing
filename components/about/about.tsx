@@ -50,7 +50,6 @@ const About = () => {
 
         <p style={{ marginTop: '2rem' }}>
           A ideia é simples: usar a tecnologia como um facilitador. Menos complicação, mais resultado.
-          Se o seu negócio precisa de algo objetivo, bem feito e com entrega responsável, a MakzTech pode ajudar.
         </p>
       </Container>
     </div>

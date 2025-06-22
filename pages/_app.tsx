@@ -1,5 +1,4 @@
 import '@/styles/globals.css';
-import '@/styles/Home.css';
 import '@/styles/StyledDiv.css';
 import { createTheme, NoSsr, ThemeProvider } from '@mui/material';
 import type { AppProps } from 'next/app';

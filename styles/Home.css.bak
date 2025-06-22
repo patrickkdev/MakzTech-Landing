@@ -1,4 +1,4 @@
-.about-section {
+/* .about-section {
   background-color: red;  
   height: 100vh;
   display: flex;
@@ -12,8 +12,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
   }
 
   ul {
@@ -48,4 +46,4 @@
     justify-content: center;
     align-items: center;
   }
-}
+} */

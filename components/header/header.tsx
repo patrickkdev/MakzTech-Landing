@@ -10,9 +10,9 @@ const Header = () => {
       <div className="header">
         <div className="container">
           <div className="hero">
-            <h6 className="subtitle">
+            <p className="subtitle">
               <strong>Makz</strong>Tech
-            </h6>
+            </p>
             <h1 className="title">
               Conectamos seu negócio ao futuro
             </h1>
@@ -24,7 +24,7 @@ const Header = () => {
             </div>
           </div>
           <div className="image-container">
-            <img src="/hero_image.jpg"/>
+            <img src="/hero_image.png"/>
           </div>
         </div>
       </div>
